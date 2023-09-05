@@ -1,0 +1,26 @@
+2023-09-04 22:29:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "nome" not found [42122-206]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:521)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:496)
+	at org.h2.message.DbException.get(DbException.java:227)
+	at org.h2.message.DbException.get(DbException.java:203)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3491)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:300)
+	at model.ClienteDAO.buildObject(ClienteDAO.java:49)
+	at model.ClienteDAO.retrieve(ClienteDAO.java:62)
+	at model.ClienteDAO.retrieveById(ClienteDAO.java:82)
+	at model.ClienteDAO.create(ClienteDAO.java:42)
+	at com.mycompany.tt001.a.clinica.veterinaria.View.Tt001AClinicaVeterinaria.main(Tt001AClinicaVeterinaria.java:14)
+2023-09-04 22:29:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "endereco" not found [42122-206]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:521)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:496)
+	at org.h2.message.DbException.get(DbException.java:227)
+	at org.h2.message.DbException.get(DbException.java:203)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3491)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:300)
+	at model.ClienteDAO.buildObject(ClienteDAO.java:49)
+	at model.ClienteDAO.retrieve(ClienteDAO.java:62)
+	at model.ClienteDAO.retrieveById(ClienteDAO.java:82)
+	at model.ClienteDAO.create(ClienteDAO.java:42)
+	at com.mycompany.tt001.a.clinica.veterinaria.View.Tt001AClinicaVeterinaria.main(Tt001AClinicaVeterinaria.java:14)
