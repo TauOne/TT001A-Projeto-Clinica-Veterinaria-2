@@ -74,7 +74,7 @@ public class Cliente {
     
     @Override
     public String toString() {        
-        String desc = "Cliente{" + "nomeCliente=" + nomeCliente + ", enderecoCliente=" + enderecoCliente + ", cepCliente=" + cepCliente + ", emailCliente=" + emailCliente+ ", telefoneCliente=" + telefoneCliente + '}';
+        String desc = "Cliente{" + "id = " + id + ", nome = " + nomeCliente + ", endereco = " + enderecoCliente + ", cep = " + cepCliente + ", email = " + emailCliente+ ", phone = " + telefoneCliente + '}';
         return desc;
     }    
 }

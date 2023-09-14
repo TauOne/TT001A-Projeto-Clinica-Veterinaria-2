@@ -11,7 +11,7 @@ public class Tt001AClinicaVeterinaria {
 
     public static void main(String[] args) {
         
-        ClienteDAO.getInstance().create("Saadhak", "Los Angeles", "NRG", "saadhak@nrg.com", "shazam");
+        //ClienteDAO.getInstance().create("Saadhak", "Los Angeles", "NRG", "saadhak@nrg.com", "shazam");
         
         
         
